@@ -1,6 +1,6 @@
-<h1 align="center"><img src="./.github/#" width=150px"/></h1>
+<h1 align="center"><img src="./.github/logo.png" width=150px"/></h1>
 
-<h3 align="center">###</h3>
+<h3 align="center">Chat-Bot</h3>
 
 <p align="center">“O que sabemos é uma gota. O que ignoramos é um oceano.”</p>
 
@@ -36,9 +36,6 @@ $ npm run typeorm migration:run
 
 # Iniciar o projeto em localhost:
 $ npm run dev
-
-# Realizar testes:
-$ npm run test
 
 ```
 
