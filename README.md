@@ -1,6 +1,6 @@
-<h1 align="center"><img src="./.github/logo.png" width=150px"/></h1>
+<h1 align="center"><img src="./.github/logo.png" width=80px"/></h1>
 
-<h3 align="center">Chat-Bot</h3>
+<h3 align="center">Chatbot</h3>
 
 <p align="center">“O que sabemos é uma gota. O que ignoramos é um oceano.”</p>
 
@@ -13,7 +13,7 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> ###
+> Em construção...
 
 <br />
 <table>
@@ -21,7 +21,7 @@
     <td colspan="1">#</td>
   </tr>
   <tr>
-    <td><img src="./.github/#" width=1000px /></td></td>
+    <td><img src="./.github/chat.png" width=1000px /></td></td>
   </tr>
 </table>
 
