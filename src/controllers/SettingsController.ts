@@ -31,6 +31,7 @@ class SettingsController {
 
   async update(request: Request, response: Response) {
     const { username } = request.params;
+
     const { chat } = request.body;
 
     const settingsService = new SettingsService();

@@ -18,7 +18,7 @@
 <br />
 <table>
   <tr>
-    <td colspan="1">#</td>
+    <td colspan="1">Visualização</td>
   </tr>
   <tr>
     <td><img src="./.github/chat.png" width=1000px /></td></td>

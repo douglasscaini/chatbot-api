@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <title></title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
@@ -22,11 +19,9 @@
       </div>
 
       <div class="text_support">
-        <script id="email-template" type="text/template">
+        <script id="message-user-template" type="text/template">
           <div class="client">
             <span class="name">{{email}}</span>
-        </script>
-        <script id="message-user-template" type="text/template">
             <span class="client message">
               {{message}}
               <!-- <label class="date">{{date}}</label> -->
@@ -44,11 +39,7 @@
         <!-- <div class="line"></div> -->
       </div>
       <div class="message_send">
-        <input
-          type="text"
-          placeholder="Digite sua mensagem aqui"
-          id="message_user"
-        />
+        <input type="text" placeholder="Digite sua mensagem aqui" id="message_user" />
         <div class="send_message_button" id="send_message_button">
           <img src="/images/send.png" />
         </div>
@@ -103,13 +94,13 @@
 
     function onLoad() {
       fetch("http://localhost:3333/settings/admin").then((result) =>
-      result.json().then((response) => {
-      const buttonSupport = document.getElementById("btn_support");
-      if (!response.chat) {
+        result.json().then((response) => {
+          const buttonSupport = document.getElementById("btn_support");
+          if (!response.chat) {
             buttonSupport.style.display = "none";
           }
         })
-       );
+      );
     }
 
     function openChat() {
