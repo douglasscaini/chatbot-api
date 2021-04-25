@@ -13,7 +13,7 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> Em construção...
+> Projeto de chatbot utilizando WebSocket.
 
 <br />
 <table>
@@ -36,6 +36,12 @@ $ npm run typeorm migration:run
 
 # Iniciar o projeto em localhost:
 $ npm run dev
+
+# Acesse a rota do cliente:
+$ http://localhost:3333/pages/client
+
+# Acesse a rota do admin:
+$ http://localhost:3333/pages/admin
 
 ```
 

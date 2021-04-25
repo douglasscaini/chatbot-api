@@ -1,11 +1,10 @@
 import express from "express";
 import { createServer } from "http";
 import { Server, Socket } from "socket.io";
+import { routes } from "./routes";
 import path from "path";
 
 import "./database";
-
-import { routes } from "./routes";
 
 const app = express();
 
@@ -22,10 +21,12 @@ app.get("/pages/admin", (request, response) => {
   return response.render("html/admin.html");
 });
 
-const http = createServer(app); // Criando protocolo HTPP
-const io = new Server(http); // Criando protocolo WS
+const http = createServer(app); // Criando Protocolo HTTP
+const io = new Server(http); // Criando Protocolo WS
 
-io.on("connection", (socket: Socket) => {});
+io.on("connection", (socket: Socket) => {
+  // console.log("Se conectou", socket.id);
+});
 
 app.use(express.json());
 app.use(routes);
